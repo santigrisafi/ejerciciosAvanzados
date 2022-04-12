@@ -1,7 +1,7 @@
 function addNumbers4() {
   let nums = [];
   for (let i = 0; i < 3; i++) {
-    nums[i] = parseInt(prompt("Ingrese el numero" + i));
+    nums[i] = parseInt(prompt("Ingrese el numero " + i));
   }
   alert(mayor_menor(nums));
 }
